@@ -1,2 +1,2 @@
 # TwitterTask
-Get the Latest 100 tweets form twitter
+Get the Latest 100 tweets from Twitter
