@@ -2,10 +2,10 @@
   "name": "latest-tweets",
   "version": "1.0.0",
   "scripts": {
+    "start": "node server.js",
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
-    "start": "yarn run dev",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
